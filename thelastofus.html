@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./LoL_icon.svg.png"  type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>League of Legends</title>
+</head>
+<body>
+
+    <!-- start nav -->
+
+    <nav class="navbar navbar-dark bg-dark fixed-top h6 text-center mt-xxl-2"  >
+        <div class="container-fluid">
+           <img src="./1200px-League_of_Legends_2019_vector.svg.png" alt="lol-icon" style="width: 8%; " >
+          <p class="navbar-brand m-0">Game</p>
+          <p class="navbar-brand m-0">Champions</p>
+          <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
+              News
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark m-0 text-center w-75">
+              <li><a class="dropdown-item active" href="#">All</a></li>
+              <li><a class="dropdown-item" href="#">Game Update</a></li>
+              <li><a class="dropdown-item" href="#">Esports</a></li><li>
+                <li><a class="dropdown-item" href="#">Dev</a></li>
+                <li><a class="dropdown-item" href="#">Lore</a></li>
+                <li><a class="dropdown-item" href="#">Media</a></li>
+                <li><a class="dropdown-item" href="#">Merch</a></li>
+                <li><a class="dropdown-item" href="#">Community</a></li>
+                <li><a class="dropdown-item" href="#">Riot Games</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </div>
+          <p class="navbar-brand m-0">Patch News</p>
+          <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Discover            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active" href="#">League Displays</a></li>
+              <li><a class="dropdown-item" href="#">Riot Mobile</a></li>
+              <li><a class="dropdown-item" href="#"> Avatar Creator</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-text text text-warning" role="button"  aria-disabled="true"><i class="fa fa-globe" style="color: aliceblue;"></i> Sing In</a>
+          <a href="https://www.leagueoflegends.com/en-gb/" target="_blank" class="  btn btn-info" role="button">Play Now</a>
+         
+          <button class="navbar-toggler" style="width: 15%;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+            <img style="width: 40%;" src="./Riot_Games-Logo.wine.png" alt="logo"> </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header text-center">
+              <h5 class="offcanvas-title text-center text text-warning fw-bold" id="offcanvasDarkNavbarLabel">LOL</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            
+           <!-- inside right nav -->
+            <div class="offcanvas-body text-center"><img style="width: 40%;" src="./Riot_Games-Logo.wine.png" alt="logo">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                <li><div class="switch">
+                    <label>Dark Mode: <br>
+                      Off
+                      <input type="checkbox">
+                      <span class="lever"></span>
+                      On
+                    </label>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">ENTERTAINMENT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Wild Rift</a>
+                </li>
+                <li class="nav-item dropdown text-center">
+                  <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    BUSINESS 
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">RIOT GAMES</a></li>
+                    <li><a class="dropdown-item" href="#">RIOT MERCH</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">RIOT MOBILE</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br><br>      <br>
+      <!-- end nav -->
+
+
+
+  
+ <!-- start vid -->
+      <div class="card text-bg-dark">
+        <video muted autoplay loop class="object-fit-cover" style="width: 95%; display:block; margin: auto ;">
+            <source src="./Lunar.mp4" type="video/mp4 ">  
+        </video> <div class="card-src-overlay"></div>
+        <img src="./logonu.png" class=" m-auto position-absolute top-50 start-50 translate-middle" alt="lol" width="45%">
+        <a href="https://www.leagueoflegends.com/en-gb/" target="_blank" class=" m-auto  btn btn-info position-absolute top-50 start-50 translate-middle" role="button">Play NowW</a>
+      </div>
+  <!-- end vid -->
+  
+
+      
+       <!-- start card -->
+      
+      <div class="card-group m-auto w-50 h-50 gap-4">
+        <div class="card">
+          <img src="./eve.jpg" class="card" alt="eve-img">
+          <div class="card-body">
+            <h5 class="card-title">Eve KDA</h5>
+            <p class="card-text"><strong>Lunar Gala Crasher</strong> | Teamfight Tactics
+                In Spatulopolis, Lunar New Year means big parties—and massive party crashers.
+                
+                .</p>
+            <p class="card-text"><small class="text-muted right">Last updated 3 days ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./ahri.jpg" class=" card " alt="ahri-img">
+          <div class="card-body">
+            <h5 class="card-title">Ahri KDA</h5>
+            <p class="card-text"><strong>Hop On</strong> 
+                All aboard—we're taking off! Come along on this magical bus for the adventure of a lifetime!</p>
+            <p class="card-text"><small class="text-muted right">Last updated 3 days ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./lai.jpg" class="card-img-top card" alt="kai-img" >
+          
+          <div class="card-body">
+            <h5 class="card-title">Kai'sa KDA</h5>
+            <p class="card-text"><strong>Deadly</strong> Gameplay Thoughts 1/13: Tank Mythics
+                Designer RiotMadnessHeroo talks about the new tank mythic items and how they have landed on the Rift.
+                
+            </p>
+            <p class="card-text"><small class="text-muted right">Last updated 3 days ago</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="right">View All <a href="#"><i class="fa fa-arrow-right m-4" style="color: aqua;"></i></a></div>
+     <!-- end card -->
+
+     
+       <!-- start champ  -->
+     <div class="text-center m-5">
+        <div>
+            <h4 style="font-style: oblique;">CHOOSE YOUR</h4>
+            <h1 style="font-size: 100px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-style: oblique;">CHAMPION</h1>
+            <P>Whether you like to dive straight into the fray,
+                 support your teammates, 
+                 or<br> something in between,there is a spot  for you on the rift</P>
+                 <button type="button" class="btn btn-outline-warning mb-2">GET STARTED</button>
+                    <a href="https://www.leagueoflegends.com/en-gb/" target="_blank" class="  btn btn-outline-primary mb-2" role="button">Play For FREE</a>
+                 <img width="100%" src="./Battle-Bunny-Miss-Fortune.jpg" alt="MF">
+        </div>
+     </div>
+
+    
+    <!-- end text -->
+
+    <!-- start ex -->
+    <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="./league.jpg" class="w-100" alt="lol-icon">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h1 class="mt-0 text text-warning">WHAT IS LEAGUE OF LEGENDS?</h1>
+          <p>League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.</p>
+          
+        </div>
+      </div>
+        <!-- end -->
+
+        <!-- start  -->
+
+        <div class="card text-bg-dark">
+            <img style="width: 99%; margin: auto;" src="./pool.jpg" class="card-img" alt="PT-img">
+            <div class="card-img-overlay">
+              <h5 class="card-title blue-text "><strong>IT'S POOL PARTY TIME</strong></h5>
+              <p class="card-text yellow-text"><strong>SLAY WITH
+                STYLE</strong><i class="fa fa-fire"></i>
+                Make it personal by changing up the look of your favorite champions with skins..</p>
+                <a href="https://www.leagueoflegends.com/en-gb/" target="_blank" class=" m-auto  btn btn-info" role="button">Play Now</a>
+            </div>
+          </div>
+          <!-- end -->
+          <div class="top text-center"><p class="fs-1">MORE TO </p> <h1 style= "font-size: 120px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-style:  oblique;">DISCOVER</h1></div>
+
+          <!-- start card g2 -->
+          <div class="navbar navbar-expand-lg" style="height: 800px;" >
+            <div class="container">
+               
+          <div class="card-group gap-4">
+            <div class="card gap-5">
+              <a href="#"><img src="./wcwinner.webp" class="card-img-top" alt="WC.img"></a>
+              <div class="card-body">
+                <h5 class="card-title text-center fs-1">World Cup Winner</h5>
+              </div>
+            </div>
+            <div class="card">
+              
+              <a href="#"><img src="./Draven_20.jpg" class="card-img-top" alt="Draven.img"></a>
+              <div class="card-body">
+                <h5 class="card-title text-center fs-1">NOT DRAVEN DRAEEEEVVVVVVEN</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+          <!-- end cardg2 -->
+
+
+          <!-- start vid2 -->
+          <div class="card text-bg-dark">
+          <video   autoplay muted loop class="object-fit-cover " style="width: 95%; display:block; margin: auto; height: 600px;">
+            <source src="./lolshorts.mp4" type="video/mp4 ">
+          </video> <div class="card-src-overlay"></div>
+          <a href="https://www.leagueoflegends.com/en-gb/" target="_blank" class=" m-auto  btn btn-info position-absolute top-50 start-50 translate-middle" role="button">Play Now</a>
+          </div>
+   
+      <!-- end vid2 -->
+
+    
+
+      <!-- Start end -->
+    <div class="techs pt-3 pb-3 text-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3"><button type="button" class="btn btn-text text text-warning btn-sm">ASSASSIN</button>
+                    
+                    <img src="assassin.webp" alt="1" class="w-50">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3"> <button type="button" class="btn btn-outline-danger btn-sm">FIGHTER</button>
+                    <img src="Fighter_icon.webp" alt="2" class="w-50">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3"> <button type="button" class="btn btn-text text text-warning btn-sm">MAGES</button>
+                    <img src="mages.webp" alt="3" class="w-50">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3"> <button type="button" class="btn btn-outline-danger btn-sm">ADC</button>
+                    <img src="Marksman_icon.webp" alt="4" class="w-50">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3"><button type="button" class="btn btn-text text text-warning btn-sm">SUPPORT</button>
+                    <img src="supp.png" alt="5" class="w-50">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3"> <button type="button" class="btn btn-outline-danger btn-sm">TANK</button>
+                    <img src="Tank_icon.webp" alt="6" class="w-50">
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- end logo -->
+
+ <!-- start google app -->
+ <nav class="navbar navbar-expand-lg flex subscribe pb-1 pt-1 text-center text-md-start bg-#1a237e indigo darken-4">
+    <div class="container text-center">
+        <h4>TAKE LEAGUE WITH YOU</h4>
+        <p class="small">
+            Download the League app to stay connected to friends and the latest game and esports news.</p>
+      <a class="navbar-brand" href="https://play.google.com/store/apps/details?id=com.riotgames.mobile.leagueconnect&hl=en" target="_blank">
+        <img src="./apple.svg" alt="Logo" width="110" height="40">
+        <img src="./goog.svg" alt="Logo" width="135" height="55">
+     </a>
+    </div>
+  </nav>
+  <!-- end google -->
+
+  <!-- start info -->
+
+ <div class="subscribe pb-1 pt-1 text-center text-md-start bg-dark border-light">
+    <div class="container">
+        <ul class="list-unstyled d-flex justify-content-center mb-5 mt-5 text-light fw-bold gap-5" aria-expanded="false">
+            <li class="active rounded-pill"></li>
+            <li class="text text-outline-danger">ABOUT LEAGUE OF LEGENDS  </li>
+            <li>HELP US IMPROVE  </li>
+            <li>SERVER STATUS  </li>
+            <li>SUPPORT  </li>
+            <li>DOWNLOAD RIOT MOBILE COMPANION APP  </li>
+        </ul>
+    </div>
+</div>
+<!-- end info -->
+
+    <!-- footer start -->
+    <footer class="page-footer black text-center" style="height: 400px;">
+        <div class="container ">
+          <div class="row">
+            <div class="col l6 s12">
+              <div class="icons">
+                <a target="_blank" href="https://www.youtube.com/c/UKLeagueofLegends"><i style="color: aliceblue; border: 5px; border-radius: 50px; margin-right: 25px; box-shadow: 1px 2px 20px 7px gray;" class="fa fa-youtube-play"></i></a>
+                <a target="_blank" href="https://www.facebook.com/ukleagueoflegends/"><i style="color: aliceblue; border: 5px; border-radius: 50px; margin-right: 25px; box-shadow: 1px 2px 20px 7px gray;" class="fa fa-facebook"></i></a>
+                <a target="_blank" href="https://twitter.com/LoLUKN"><i style="color: aliceblue; border: 5px; border-radius: 50px; border-color: rgb(255, 255, 255); margin-right: 25px; box-shadow: 1px 2px 20px 7px gray;" class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.instagram.com/beshr.byazed/"><i style="color: aliceblue; border: 5px; border-radius: 50px; border-color: rgb(255, 255, 255); margin-right: 25px; box-shadow: 1px 2px 20px 7px gray;" class="fa fa-instagram"></i></a>
+                <a target="_blank" href="https://nl.linkedin.com/in/m-beshr-a696601b6/nl?trk=people-guest_people_search-card"><i style="color: aliceblue; border: 5px; border-radius: 50px; border-color: black; margin-right: 25px; box-shadow: 1px 2px 20px 7px gray;" class="fa fa-linkedin"></i></a>
+                <a target="_blank" href="https://www.reddit.com/r/leagueoflegends/"><i style="color: aliceblue; border: 5px; border-radius: 50px; border-color: rgb(255, 255, 255); margin-right: 25px; box-shadow: 1px 2px 20px 7px gray; box-shadow: 1px 2px 20px 7px gray;" class="fa fa-reddit-alien"></i></a>
+            </div>
+              <a href="#" ><img style="width: 10%; margin-top: 20px;" src="./images.png" alt="riot"></a>
+            </div>
+            <div class="footer-copyright text  grey-text small">
+                <div class="container "> 
+                Tm & © 2023 Riot Games, Inc. League of Legends and all related logos, characters, names and distinctive<br>
+                likenesses thereof are exclusive property of Riot Games, Inc. All Rights Reserved.
+            
+          </div>
+        </div>
+        <div class=" container text-center m-2"> 
+            
+            <ul class="text-center">
+              <li><a class="grey-text text-lighten-3 text-decoration-none col order-first m-auto" href="#!">PRIVACY NOTICE</a></li>
+              <li><a class="grey-text text-lighten-3 text-decoration-none col order-2 m-auto" href="#!">TERMS OF SERVICE</a></li>       
+              <li><a class="grey-text text-lighten-3 text-decoration-none col center text-center" href="#!">COOKIE POLICY</a></li>
+              <li><a class="grey-text text-lighten-3 text-decoration-none col right" href="#!">MORE</a></li>
+              <li><a class="grey-text text-lighten-3 text-decoration-none col order-4 right" href="#!">COMPANY INFIRMATION</a></li>
+              <li><a class="grey-text text-lighten-3 text-decoration-none col order-last right" href="#!">COMPANY PREFERNCES</a></li>
+            </ul>
+    
+        
+          </div>
+        <div>
+          <img src="./Pegi12.png" alt="pegi12" style="width: 74px;  border: 10px solid gray; border-radius: 5px;" class="m-0">
+          <img src="./USK_12.svg.png" alt="usk12" style="width: 85px; border: 10px solid gray; border-radius: 5px;" class="m-0">
+        </div>
+
+          </div>
+        </div>
+      </footer>
+      <!-- end foorer -->
+    
+</body>
+</html>
